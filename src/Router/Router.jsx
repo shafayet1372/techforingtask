@@ -19,10 +19,10 @@ export default function Router() {
     return <HashRouter>
         <Routes>
             <Route path="/techforingtask" element={isLoggedIn() ? <Home /> : <Login />} />
-            <Route path="/register" element={<Register />} />
+            <Route path="/techforingtask/register" element={<Register />} />
             <Route element={<PrivateRoute />}>
-                <Route path="/home" element={<Home />} />
-                <Route path="/add-job" element={<CreateJob />} />
+                <Route path="/techforingtask/home" element={<Home />} />
+                <Route path="/techforingtask/add-job" element={<CreateJob />} />
             </Route>
 
         </Routes>

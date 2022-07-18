@@ -59,7 +59,7 @@ export default function Register() {
             setRegistrationValue(initialValue)
             setError({})
             successMessage()
-            navigate('/')
+            navigate('/techforingtask')
         })
 
 

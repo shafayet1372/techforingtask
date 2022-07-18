@@ -55,7 +55,7 @@ export default function Login() {
                 setError(data.error)
             } else {
                 localStorage.setItem("access_token", JSON.stringify(data.access_token))
-                navigate('/home')
+                navigate('/techforingtask/home')
                 successMessage(data.userName)
             }
 

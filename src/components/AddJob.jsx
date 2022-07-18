@@ -60,7 +60,7 @@ export default function AddJob() {
         }).then(res => res.json()).then(data => {
             setValues(initialValue)
             successMessage()
-            navigate('/home')
+            navigate('/techforingtask/home')
         })
     }
 

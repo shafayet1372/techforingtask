@@ -14,7 +14,7 @@ export default function ButtonAppBar() {
     const logOut = () => {
 
         localStorage.removeItem('access_token')
-        navigate('/')
+        navigate('/techforingtask')
 
     }
 
