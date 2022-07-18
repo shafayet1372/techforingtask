@@ -28,7 +28,7 @@ export default function Home() {
 
 
     const getAllJobs = () => {
-        fetch('http://localhost:8000/api/getalljobs')
+        fetch('https://expressmyserver.herokuapp.com/api/getalljobs')
             .then((response) => response.json())
             .then((json) => {
                 setJobs([...json.jobs])
@@ -48,7 +48,7 @@ export default function Home() {
 
         let remove = window.confirm("Are you sure?");
         if (remove) {
-            fetch(`http://localhost:8000/api/delete/${id}`, {
+            fetch(`https://expressmyserver.herokuapp.com/api/delete/${id}`, {
                 method: 'DELETE',
             }).then(data => data.json()).then(data => {
                 getAllJobs()
@@ -91,7 +91,7 @@ export default function Home() {
 
         <Container maxWidth="lg" >
             <Grid container spacing={3} mt={5}>
-                <Grid item xs={12} md={4} maxWidth="100%">
+                <Grid item xs={12} md={4} >
                     <SideBar />
                 </Grid>
                 <Grid item xs={12} md={8}>

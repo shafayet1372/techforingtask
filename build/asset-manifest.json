@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/techforingtask/static/css/main.07c1867a.css",
+    "main.js": "/techforingtask/static/js/main.e949900b.js",
+    "index.html": "/techforingtask/index.html",
+    "main.07c1867a.css.map": "/techforingtask/static/css/main.07c1867a.css.map",
+    "main.e949900b.js.map": "/techforingtask/static/js/main.e949900b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07c1867a.css",
+    "static/js/main.e949900b.js"
+  ]
+}

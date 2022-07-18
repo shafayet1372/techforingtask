@@ -46,7 +46,7 @@ export default function Register() {
 
     const createUser = () => {
         const { name, email, password } = registration
-        fetch('http://localhost:8000/api/register', {
+        fetch('https://expressmyserver.herokuapp.com/api/register', {
             method: 'POST',
             body: JSON.stringify({
                 name,

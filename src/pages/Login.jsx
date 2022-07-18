@@ -41,7 +41,7 @@ export default function Login() {
     const login = () => {
 
         const { email, password } = loginValue
-        fetch('http://localhost:8000/api/login', {
+        fetch('https://expressmyserver.herokuapp.com/api/login', {
             method: 'POST',
             body: JSON.stringify({
                 email,

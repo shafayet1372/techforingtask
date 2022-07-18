@@ -49,7 +49,7 @@ export default function AddJob() {
 
     const createJob = () => {
         const { title, description } = values
-        fetch('http://localhost:8000/api/add-job', {
+        fetch('https://expressmyserver.herokuapp.com/api/add-job', {
             method: 'POST',
             body: JSON.stringify({
                 title, description, category: select
