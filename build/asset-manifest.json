@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/techforingtask/static/css/main.07c1867a.css",
-    "main.js": "/techforingtask/static/js/main.e949900b.js",
+    "main.js": "/techforingtask/static/js/main.872f8750.js",
     "index.html": "/techforingtask/index.html",
     "main.07c1867a.css.map": "/techforingtask/static/css/main.07c1867a.css.map",
-    "main.e949900b.js.map": "/techforingtask/static/js/main.e949900b.js.map"
+    "main.872f8750.js.map": "/techforingtask/static/js/main.872f8750.js.map"
   },
   "entrypoints": [
     "static/css/main.07c1867a.css",
-    "static/js/main.e949900b.js"
+    "static/js/main.872f8750.js"
   ]
 }

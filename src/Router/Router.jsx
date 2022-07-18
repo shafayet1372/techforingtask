@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import {
-    BrowserRouter,
+    HashRouter,
     Routes,
     Route,
 } from "react-router-dom";
@@ -16,7 +16,7 @@ import isLoggedIn from '../js/AuthenticationCheck';
 export default function Router() {
 
 
-    return <BrowserRouter>
+    return <HashRouter>
         <Routes>
             <Route path="/" element={isLoggedIn() ? <Home /> : <Login />} />
             <Route path="/register" element={<Register />} />
@@ -26,5 +26,5 @@ export default function Router() {
             </Route>
 
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
 }
